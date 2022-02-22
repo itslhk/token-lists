@@ -8,11 +8,11 @@ const buildList = require('../src/buildLists');
 const ajv = new Ajv({ allErrors: true, format: 'full' });
 const validator = ajv.compile(schema);
 
-const lists = ['Default', 'DFK']
+const lists = ['default', 'dfk']
 
 lists.forEach(function (e) {
     describe(e, () => {
-        const defaultTokenList = buildList[`build${e}List`]();
+        const defaultTokenList = buildList[`build_${e}_list`]();
 
         it('validates', () => {
             expect(validator(defaultTokenList)).to.equal(true);
