@@ -1,18 +1,16 @@
 {
   "name": "@tradescrow/token-lists",
-  "version": "1.1.0",
+  "version": "1.0.2",
   "description": "Tradescrow token lists",
-  "main": "build/tradescrow.tokenlists.json",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "clean": "rimraf build && mkdir -p build",
     "build": "node scripts/write.js",
-    "prepublishOnly": "npm test && npm run build",
-    "bash": "bash"
+    "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "build/tradescrow-default.tokenlists.json",
-    "build/tradescrow-dfk.tokenlists.json"
+    "build/*"
   ],
   "repository": {
     "type": "git",
@@ -36,10 +34,9 @@
     "@uniswap/token-lists": "^1.0.0-beta.8",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
+    "deepmerge": "^4.2.2",
     "mocha": "^8.0.1",
     "rimraf": "^3.0.2"
   },
-  "dependencies": {
-    "deepmerge": "^4.2.2"
-  }
+  "dependencies": {}
 }
