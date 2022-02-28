@@ -1,0 +1,64 @@
+{
+  "name": "Tradescrow GFC",
+  "timestamp": "2022-02-28T12:57:03.689Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 2
+  },
+  "keywords": [
+    "tradescrow",
+    "approved",
+    "GameFi",
+    "Crossing"
+  ],
+  "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
+  "tags": {
+    "harmony": {
+      "name": "Harmony",
+      "description": "Tokens on the Harmony network"
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0x66173Da60415857FC1D50fb1D502060Ad09D1bF2",
+      "symbol": "FPLOT",
+      "name": "FreyalaPlots",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xD9D6B8C7f63cc2f5d5dF5f3A77B2F596a66230D2",
+      "symbol": "FREY",
+      "name": "The Frey",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xE5Fd335819EDb8DA8395F8Ec48beCA747a0790aB",
+      "symbol": "XPIGGO",
+      "name": "CryptoPigs",
+      "decimals": 18,
+      "logoURI": "https://dingos.one/images/mugshot.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xFE1ef7984F0051e00Eac463E7f57EbF2FC2798b0",
+      "symbol": "YAPLOT",
+      "name": "YangPlots",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x40Ad4aeF3A74c57d0C4829de97184d909beBC09F",
+      "symbol": "YIPLOT",
+      "name": "YinPlots",
+      "decimals": 0,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    }
+  ]
+}
