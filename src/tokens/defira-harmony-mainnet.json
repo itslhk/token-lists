@@ -1,0 +1,94 @@
+{
+  "shortName": "DeFira",
+  "keywords": ["defira", "tranquil", "finance"],
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0x2a719af848bf365489e548be5edbec1d65858e59",
+      "symbol": "FIRA",
+      "name": "Fira",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23983/large/fira.png?1645881719"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x690f506C7FB8e76d61C077Ca75341a6F8AC37Ed5",
+      "symbol": "sFIRA",
+      "name": "Sealed Fira",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/23983/large/fira.png?1645881719"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xcf1709ad76a79d5a60210f23e81ce2460542a836",
+      "symbol": "TRANQ",
+      "name": "Tranquil",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18708/large/tranquil.png?1633060587"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xb4aa8c8e555b3a2f1bfd04234ff803c011760e59",
+      "symbol": "xTRANQ",
+      "name": "Locked Tranquil",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/18708/large/tranquil.png?1633060587"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x22d62b19b7039333ad773b7185bb61294f3adc19",
+      "symbol": "stONE",
+      "name": "Staked One",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/21848/large/7zRXwiV.png?1640132557"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x34B9aa82D89AE04f0f546Ca5eC9C93eFE1288940",
+      "symbol": "tqONE",
+      "name": "Tranquil ONE",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/21848/large/7zRXwiV.png?1640132557"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xd9c0D8Ad06ABE10aB29655ff98DcAAA0E059184A",
+      "symbol": "tq1WBTC",
+      "name": "Tranquil 1WBTC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/21848/large/7zRXwiV.png?1640132557"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xc63AB8c72e636C9961c5e9288b697eC5F0B8E1F7",
+      "symbol": "tq1ETH",
+      "name": "Tranquil 1ETH",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/21848/large/7zRXwiV.png?1640132557"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xCa3e902eFdb2a410C952Fd3e4ac38d7DBDCB8E96",
+      "symbol": "tq1USDC",
+      "name": "Full Health Potion",
+      "decimals": 0,
+      "logoURI": "https://assets.coingecko.com/coins/images/21848/large/7zRXwiV.png?1640132557"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x7af2430eFa179dB0e76257E5208bCAf2407B2468",
+      "symbol": "tq1USDT",
+      "name": "Tranquil 1USDC",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/21848/large/7zRXwiV.png?1640132557"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xdc54046c0451f9269fee1840aec808d36015697d",
+      "symbol": "1BTC",
+      "name": "Harmony Bitcoin",
+      "decimals": 8,
+      "logoURI": "https://assets.coingecko.com/coins/images/21848/large/7zRXwiV.png?1640132557"
+    }
+  ]
+}
