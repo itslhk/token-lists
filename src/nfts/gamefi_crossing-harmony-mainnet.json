@@ -7,7 +7,8 @@
       "address": "0x66173Da60415857FC1D50fb1D502060Ad09D1bF2",
       "symbol": "FPLOT",
       "name": "FreyalaPlots",
-      "decimals": 18,
+      "decimals": 0,
+      "type": 721,
       "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
     },
     {
@@ -16,6 +17,7 @@
       "symbol": "YIPLOT",
       "name": "YinPlots",
       "decimals": 0,
+      "type": 721,
       "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
     },
     {
@@ -23,7 +25,8 @@
       "address": "0xFE1ef7984F0051e00Eac463E7f57EbF2FC2798b0",
       "symbol": "YAPLOT",
       "name": "YangPlots",
-      "decimals": 18,
+      "decimals": 0,
+      "type": 721,
       "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
     },
     {
@@ -31,7 +34,8 @@
       "address": "0xD9D6B8C7f63cc2f5d5dF5f3A77B2F596a66230D2",
       "symbol": "FREY",
       "name": "The Frey",
-      "decimals": 18,
+      "decimals": 0,
+      "type": 721,
       "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
     },
     {
