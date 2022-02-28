@@ -1,25 +1,6 @@
 {
-  "name": "Tradescrow DFK",
-  "timestamp": "2022-02-28T03:25:09.416Z",
-  "version": {
-    "major": 1,
-    "minor": 0,
-    "patch": 0
-  },
-  "keywords": [
-    "tradescrow",
-    "approved",
-    "dfk",
-    "defi",
-    "kingdoms"
-  ],
-  "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
-  "tags": {
-    "harmony": {
-      "name": "Harmony",
-      "description": "Tokens on the Harmony network"
-    }
-  },
+  "shortName": "DFK",
+  "keywords": ["dfk", "defi", "kingdoms"],
   "tokens": [
     {
       "chainId": 1666600000,

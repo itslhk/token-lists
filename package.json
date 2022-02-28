@@ -1,13 +1,12 @@
 {
   "name": "@tradescrow/token-lists",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tradescrow token lists",
   "main": "build/tradescrow.tokenlists.json",
   "scripts": {
     "test": "mocha",
-    "build": "bash -c ./scripts/prebuild.sh && bash -c ./scripts/build_all.sh",
-    "build:default": "bash -c scripts/prebuild.sh && bash -c scripts/build.sh default",
-    "build:dfk": "bash -c scripts/prebuild.sh && bash -c scripts/build.sh dfk",
+    "clean": "rimraf build && mkdir -p build",
+    "build": "node scripts/write.js",
     "prepublishOnly": "npm test && npm run build",
     "bash": "bash"
   },
@@ -39,5 +38,8 @@
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2"
   }
 }

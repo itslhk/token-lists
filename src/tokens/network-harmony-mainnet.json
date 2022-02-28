@@ -1,17 +1,6 @@
 {
-  "name": "Tradescrow Default",
-  "timestamp": "2022-02-22T21:21:02.984Z",
-  "version": {
-    "major": 1,
-    "minor": 0,
-    "patch": 0
-  },
-  "tags": {},
-  "logoURI": "https://upload.wikimedia.org/wikipedia/commons/3/33/White_square_with_question_mark.png",
-  "keywords": [
-    "tradescrow",
-    "default"
-  ],
+  "shortName": "network",
+  "keywords": ["default"],
   "tokens": [
     {
       "chainId": 1666600000,

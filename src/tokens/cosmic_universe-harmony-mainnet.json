@@ -1,0 +1,22 @@
+{
+  "shortName": "CU",
+  "keywords": ["cosmic", "magic", "universe"],
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0x892D81221484F690C0a97d3DD18B9144A3ECDFB7",
+      "symbol": "MAGIC",
+      "name": "Magic",
+      "decimals": 18,
+      "logoURI": "https://legacy.lootswap.finance/tokens/MAGIC.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x6008C8769BFACd92251bA838382e7e5637C7e74D",
+      "symbol": "COSMIC",
+      "name": "Cosmic",
+      "decimals": 9,
+      "logoURI": "https://legacy.lootswap.finance/tokens/COSMIC.png"
+    }
+  ]
+}

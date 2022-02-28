@@ -1,62 +1,62 @@
-const packageJson = require('../package.json');
-const schema = require('@uniswap/token-lists/src/tokenlist.schema.json');
-const { expect } = require('chai');
-const { getAddress } = require('@ethersproject/address');
-const Ajv = require('ajv');
-const buildList = require('../src/buildLists');
+const packageJson = require('../package.json')
+const tokenSchema = require('@uniswap/token-lists/src/tokenlist.schema.json')
+const nftSchema = require('../schemas/nftlist.schema.json')
+const { expect } = require('chai')
+const { getAddress } = require('@ethersproject/address')
+const Ajv = require('ajv')
+const { build } = require('../scripts/build')
 
-const ajv = new Ajv({ allErrors: true, format: 'full' });
-const validator = ajv.compile(schema);
+const ajv = new Ajv({ allErrors: true, format: 'full' })
+const tokenValidator = ajv.compile(tokenSchema);
+const nftValidator = ajv.compile(nftSchema);
 
-const lists = ['default', 'dfk']
+const lists = build()
 
-lists.forEach(function (e) {
-    describe(e, () => {
-        const defaultTokenList = buildList[`build_${e}_list`]();
+Object.entries(lists).forEach(([tokenType, list]) => {
+    let validator = tokenType === "tokens" ? tokenValidator : nftValidator
+    Object.entries(list).forEach(([shortName, tokenList]) => {
+        describe(`${shortName} (${tokenType.replace("s", "")})`, () => {
+            const defaultTokenList = tokenList
 
-        it('validates', () => {
-            expect(validator(defaultTokenList)).to.equal(true);
+            it('validates', () => {
+                expect(validator(defaultTokenList)).to.equal(true);
+            });
+            it('contains no duplicate addresses', () => {
+                const map = {};
+                for (let token of defaultTokenList.tokens) {
+                    const key = `${token.chainId}-${token.address}`;
+                    expect(typeof map[ key ])
+                      .to.equal('undefined');
+                    map[ key ] = true;
+                }
+            });
+            it('contains no duplicate symbols', () => {
+                const map = {};
+                for (let token of defaultTokenList.tokens) {
+                    const key = `${token.chainId}-${token.symbol.toLowerCase()}`;
+                    expect(typeof map[ key ])
+                      .to.equal('undefined');
+                    map[ key ] = true;
+                }
+            })
+            it('contains no duplicate names', () => {
+                const map = {};
+                for (let token of defaultTokenList.tokens) {
+                    const key = `${token.chainId}-${token.name.toLowerCase()}`;
+                    expect(typeof map[ key ])
+                      .to.equal('undefined', `duplicate name: ${token.name}`);
+                    map[ key ] = true;
+                }
+            })
+            it('all addresses are valid and checksummed', () => {
+                for (let token of defaultTokenList.tokens) {
+                    expect(getAddress(token.address)).to.eq(token.address);
+                }
+            });
+            it('version matches package.json', () => {
+                expect(packageJson.version).to.match(/^\d+\.\d+\.\d+$/);
+                expect(packageJson.version).to.equal(`${defaultTokenList.version.major}.${defaultTokenList.version.minor}.${defaultTokenList.version.patch}`);
+            });
         });
-
-        it('contains no duplicate addresses', () => {
-            const map = {};
-            for (let token of defaultTokenList.tokens) {
-                const key = `${token.chainId}-${token.address}`;
-                expect(typeof map[ key ])
-                    .to.equal('undefined');
-                map[ key ] = true;
-            }
-        });
-
-        it('contains no duplicate symbols', () => {
-            const map = {};
-            for (let token of defaultTokenList.tokens) {
-                const key = `${token.chainId}-${token.symbol.toLowerCase()}`;
-                expect(typeof map[ key ])
-                    .to.equal('undefined');
-                map[ key ] = true;
-            }
-        })
-
-        it('contains no duplicate names', () => {
-            const map = {};
-            for (let token of defaultTokenList.tokens) {
-                const key = `${token.chainId}-${token.name.toLowerCase()}`;
-                expect(typeof map[ key ])
-                    .to.equal('undefined', `duplicate name: ${token.name}`);
-                map[ key ] = true;
-            }
-        })
-
-        it('all addresses are valid and checksummed', () => {
-            for (let token of defaultTokenList.tokens) {
-                expect(getAddress(token.address)).to.eq(token.address);
-            }
-        });
-
-        it('version matches package.json', () => {
-            expect(packageJson.version).to.match(/^\d+\.\d+\.\d+$/);
-            expect(packageJson.version).to.equal(`${defaultTokenList.version.major}.${defaultTokenList.version.minor}.${defaultTokenList.version.patch}`);
-        });
-    });
+    })
 })

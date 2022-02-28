@@ -1,0 +1,32 @@
+{
+  "name": "Tradescrow network",
+  "timestamp": "2022-02-28T03:25:09.415Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "tradescrow",
+    "approved",
+    "default"
+  ],
+  "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
+  "tags": {
+    "harmony": {
+      "name": "Harmony",
+      "description": "Tokens on the Harmony network"
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0xd45F2890AFc159f96702DE015B414C7d1cdA3DbA",
+      "symbol": "BQUH",
+      "name": "Beast Quest Ultimate Heroes",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://i.imgur.com/WWcavgK.png"
+    }
+  ]
+}

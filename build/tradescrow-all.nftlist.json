@@ -1,0 +1,86 @@
+{
+  "name": "Tradescrow ERC721",
+  "timestamp": "2022-02-28T03:25:09.416Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "tradescrow",
+    "approved",
+    "consolidated"
+  ],
+  "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
+  "tags": {
+    "harmony": {
+      "name": "Harmony",
+      "description": "Tokens on the Harmony network"
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0xd45F2890AFc159f96702DE015B414C7d1cdA3DbA",
+      "symbol": "BQUH",
+      "name": "Beast Quest Ultimate Heroes",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://i.imgur.com/WWcavgK.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x41e928EF2F2523518172f4FeDdE59C815398FAaB",
+      "symbol": "CLAND",
+      "name": "Cosmic Island",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://i.imgur.com/iwpaW1W.jpg"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x5F753dcDf9b1AD9AabC1346614D1f4746fd6Ce5C",
+      "symbol": "DFKHERO",
+      "name": "DFK Hero",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://i.imgur.com/ojreJJ3.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xD5f5bE1037e457727e011ADE9Ca54d21c21a3F8A",
+      "symbol": "DFKLAND",
+      "name": "DFK Land",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://beta.defikingdoms.com/static/media/land_plot_0001.51922b2b.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xb44778BfE8A6C3468dcF7219fb104BA7E42F8D2a",
+      "symbol": "hmNFT",
+      "name": "HarMolecules",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://www.oneverse.one/images/portfolio/harmolecules.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x870c0238e8779Fe9f568Dd1Cc907FA449DBe8552",
+      "symbol": "PUFFS",
+      "name": "PUFFS",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://www.oneverse.one/images/portfolio/puffs.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x37f47C343bfAF27A52bC1BD468b49d8E5eF89D67",
+      "symbol": "WIZARDS",
+      "name": "Cosmic Wizards",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://i.imgur.com/fq13ajp.png"
+    }
+  ]
+}

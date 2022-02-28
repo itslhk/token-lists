@@ -1,0 +1,24 @@
+{
+	"shortName": "DFK",
+	"keywords": ["dfk", "defi", "kingdoms"],
+	"tokens": [
+		{
+			"chainId": 1666600000,
+			"address": "0x5F753dcDf9b1AD9AabC1346614D1f4746fd6Ce5C",
+			"symbol": "DFKHERO",
+			"name": "DFK Hero",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://i.imgur.com/ojreJJ3.png"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0xD5f5bE1037e457727e011ADE9Ca54d21c21a3F8A",
+			"symbol": "DFKLAND",
+			"name": "DFK Land",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://beta.defikingdoms.com/static/media/land_plot_0001.51922b2b.png"
+		}
+	]
+}

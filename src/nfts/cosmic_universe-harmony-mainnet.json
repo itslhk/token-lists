@@ -1,0 +1,24 @@
+{
+	"shortName": "CU",
+	"keywords": ["magic", "cosmic", "universe"],
+	"tokens": [
+		{
+			"chainId": 1666600000,
+			"address": "0x37f47C343bfAF27A52bC1BD468b49d8E5eF89D67",
+			"symbol": "WIZARDS",
+			"name": "Cosmic Wizards",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://i.imgur.com/fq13ajp.png"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0x41e928EF2F2523518172f4FeDdE59C815398FAaB",
+			"symbol": "CLAND",
+			"name": "Cosmic Island",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://i.imgur.com/iwpaW1W.jpg"
+		}
+	]
+}

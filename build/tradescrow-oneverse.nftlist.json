@@ -1,0 +1,41 @@
+{
+  "name": "Tradescrow OneVerse",
+  "timestamp": "2022-02-28T03:25:09.416Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "tradescrow",
+    "approved",
+    "oneverse"
+  ],
+  "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
+  "tags": {
+    "harmony": {
+      "name": "Harmony",
+      "description": "Tokens on the Harmony network"
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0xb44778BfE8A6C3468dcF7219fb104BA7E42F8D2a",
+      "symbol": "hmNFT",
+      "name": "HarMolecules",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://www.oneverse.one/images/portfolio/harmolecules.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x870c0238e8779Fe9f568Dd1Cc907FA449DBe8552",
+      "symbol": "PUFFS",
+      "name": "PUFFS",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://www.oneverse.one/images/portfolio/puffs.png"
+    }
+  ]
+}

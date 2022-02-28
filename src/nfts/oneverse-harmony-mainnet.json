@@ -1,0 +1,24 @@
+{
+	"shortName": "OneVerse",
+	"keywords": ["oneverse"],
+	"tokens": [
+		{
+			"chainId": 1666600000,
+			"address": "0x870c0238e8779Fe9f568Dd1Cc907FA449DBe8552",
+			"symbol": "PUFFS",
+			"name": "PUFFS",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://www.oneverse.one/images/portfolio/puffs.png"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0xb44778BfE8A6C3468dcF7219fb104BA7E42F8D2a",
+			"symbol": "hmNFT",
+			"name": "HarMolecules",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://www.oneverse.one/images/portfolio/harmolecules.png"
+		}
+	]
+}

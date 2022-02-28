@@ -1,0 +1,16 @@
+{
+	"shortName": "network",
+	"keywords": ["default"],
+	"tokens": [
+		{
+			"chainId": 1666600000,
+			"address": "0xd45F2890AFc159f96702DE015B414C7d1cdA3DbA",
+			"symbol": "BQUH",
+			"name": "Beast Quest Ultimate Heroes",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://i.imgur.com/WWcavgK.png"
+		}
+	]
+}
+
