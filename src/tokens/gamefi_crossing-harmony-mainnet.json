@@ -1,0 +1,38 @@
+{
+  "shortName": "GFC",
+  "keywords": ["GameFi", "Crossing"],
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0x9b68BF4bF89c115c721105eaf6BD5164aFcc51E4",
+      "symbol": "XYA",
+      "name": "Freyala",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xE59AA7f9e91B4Cc6C25D3542CEcb851e0316138c",
+      "symbol": "YIN",
+      "name": "YIN",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x340042552D19211795dbe55d84FA2E63bc49B890",
+      "symbol": "YANG",
+      "name": "Yang",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x7ca9C1D0bb11F1b7C31ee5538D7a75aAF2d8E2FC",
+      "symbol": "COINKX",
+      "name": "CryptoPigs Token",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/17017/large/logo_gfx.png?1645602237"
+    }
+  ]
+}
