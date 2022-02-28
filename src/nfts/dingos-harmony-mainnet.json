@@ -1,0 +1,30 @@
+{
+  "shortName": "Dingos",
+  "keywords": ["dingos"],
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0x577BF396818F14868641045e93b0248f5550D892",
+      "symbol": "DINGOS",
+      "name": "Dingos",
+      "decimals": 18,
+      "logoURI": "https://dingos.one/images/mugshot.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xD8a7945848BA23F24445a31B659B208E324f8212",
+      "symbol": "DINGOSj",
+      "name": "Dingos jumpsuit",
+      "decimals": 0,
+      "logoURI": "https://dingos.one/images/mugshot.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xd8D3755AFaF8C65860Cde663659E4484E59Ae9Ec",
+      "symbol": "DINGOSxmas",
+      "name": "Dingos christmas hat",
+      "decimals": 18,
+      "logoURI": "https://dingos.one/images/mugshot.png"
+    }
+  ]
+}

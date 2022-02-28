@@ -1,0 +1,14 @@
+{
+  "shortName": "Dingos",
+  "keywords": ["dingos"],
+  "tokens": [
+    {
+      "chainId": 1666600000,
+      "address": "0x10ca212A896fB50c9b7E6C29A58754818Ce536A4",
+      "symbol": "xDG",
+      "name": "xDingo",
+      "decimals": 18,
+      "logoURI": "https://dingos.one/images/mugshot.png"
+    }
+  ]
+}
