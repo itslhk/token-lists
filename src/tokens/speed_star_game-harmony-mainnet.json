@@ -1,0 +1,14 @@
+{
+	"shortName": "SSG",
+	"keywords": ["speed", "star", "game", "horse", "racing"],
+	"tokens": [
+		{
+			"chainId": 1666600000,
+			"address": "0x2daE9aC8E3195715F308B59e7E9326F115Ab4D98",
+			"symbol": "SPEED",
+			"name": "Speed",
+			"decimals": 18,
+			"logoURI": "https://i.imgur.com/nFZgTk7.png"
+		}
+	]
+}

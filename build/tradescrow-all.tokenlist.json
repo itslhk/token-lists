@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow ERC20",
-  "timestamp": "2022-02-28T22:47:19.492Z",
+  "timestamp": "2022-03-01T00:42:21.183Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -482,6 +482,14 @@
       "name": "Sealed Fira",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/23983/large/fira.png?1645881719"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x2daE9aC8E3195715F308B59e7E9326F115Ab4D98",
+      "symbol": "SPEED",
+      "name": "Speed",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/nFZgTk7.png"
     },
     {
       "chainId": 1666600000,

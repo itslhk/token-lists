@@ -1,6 +1,6 @@
 {
-  "name": "Tradescrow network",
-  "timestamp": "2022-03-01T00:42:21.181Z",
+  "name": "Tradescrow SSG",
+  "timestamp": "2022-03-01T00:42:21.183Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -9,7 +9,11 @@
   "keywords": [
     "tradescrow",
     "approved",
-    "default"
+    "speed",
+    "star",
+    "game",
+    "horse",
+    "racing"
   ],
   "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
   "tags": {
@@ -21,12 +25,11 @@
   "tokens": [
     {
       "chainId": 1666600000,
-      "address": "0xd45F2890AFc159f96702DE015B414C7d1cdA3DbA",
-      "symbol": "BQUH",
-      "name": "Beast Quest Ultimate Heroes",
-      "decimals": 0,
-      "type": 721,
-      "logoURI": "https://i.imgur.com/WWcavgK.png"
+      "address": "0x2daE9aC8E3195715F308B59e7E9326F115Ab4D98",
+      "symbol": "SPEED",
+      "name": "Speed",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/nFZgTk7.png"
     }
   ]
 }

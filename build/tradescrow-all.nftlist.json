@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow ERC721",
-  "timestamp": "2022-02-28T22:47:19.490Z",
+  "timestamp": "2022-03-01T00:42:21.182Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -117,6 +117,33 @@
       "decimals": 0,
       "type": 721,
       "logoURI": "https://www.oneverse.one/images/portfolio/puffs.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x20cc1EcE4A55bB8061D91B96Ee02129c8296eC14",
+      "symbol": "SSF",
+      "name": "SpeedStar Facility",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://cdn.speedstargame.com/facilities/images/1.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xa696B20CE2751A67402fEFD3d2325B8E0cc94EF7",
+      "symbol": "SSH",
+      "name": "SpeedStar Horse",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://cdn.speedstargame.com/horses-profile/5957/avatar.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x41e928EF2F2523518172f4FeDdE59C815398FAaB",
+      "symbol": "SSH",
+      "name": "Horse",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://cdn.speedstargame.com/horses-profile/1434/avatar.png"
     },
     {
       "chainId": 1666600000,
