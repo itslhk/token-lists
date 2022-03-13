@@ -1,0 +1,43 @@
+{
+	"shortName": "network",
+	"keywords": ["generic"],
+	"tokens": [
+		{
+			"chainId": 1666600000,
+			"address": "0xd45F2890AFc159f96702DE015B414C7d1cdA3DbA",
+			"symbol": "BQUH",
+			"name": "Beast Quest Ultimate Heroes",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://i.imgur.com/WWcavgK.png"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0x728523C45fab916C4a4b3B8ba60e631555f89E9E",
+			"symbol": "LAMBO",
+			"name": "WenLambo",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://i.imgur.com/WWcavgK.png"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0x0bC0cdFDd36fc411C83221A348230Da5D3DfA89e",
+			"symbol": "MC",
+			"name": "MarsColony",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://meta.marscolony.io/1.png"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0x3eE3B977d6C9658fC787AD76CC42b8940c01aF20",
+			"symbol": "HG",
+			"name": "Hello Gophers",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://storage.googleapis.com/cdn.nftkey.app/nft-collections/hellogophers/0x192b65714df72b997dce2b115ad1f681eaa14735bbc19bc146321b708101fbb0"
+		}
+	]
+}
+

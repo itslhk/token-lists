@@ -4,7 +4,7 @@
   "tokens": [
     {
       "chainId": 1666600000,
-      "address": "0x2a719af848bf365489e548be5edbec1d65858e59",
+      "address": "0x2A719aF848bf365489E548BE5edbEC1D65858e59",
       "symbol": "FIRA",
       "name": "Fira",
       "decimals": 18,
@@ -20,7 +20,7 @@
     },
     {
       "chainId": 1666600000,
-      "address": "0xcf1709ad76a79d5a60210f23e81ce2460542a836",
+      "address": "0xCf1709Ad76A79d5a60210F23e81cE2460542A836",
       "symbol": "TRANQ",
       "name": "Tranquil",
       "decimals": 18,
@@ -28,7 +28,7 @@
     },
     {
       "chainId": 1666600000,
-      "address": "0xb4aa8c8e555b3a2f1bfd04234ff803c011760e59",
+      "address": "0xB4aA8c8e555b3A2F1BFd04234FF803C011760E59",
       "symbol": "xTRANQ",
       "name": "Locked Tranquil",
       "decimals": 18,
@@ -36,7 +36,7 @@
     },
     {
       "chainId": 1666600000,
-      "address": "0x22d62b19b7039333ad773b7185bb61294f3adc19",
+      "address": "0x22D62b19b7039333ad773b7185BB61294F3AdC19",
       "symbol": "stONE",
       "name": "Staked One",
       "decimals": 18,
@@ -84,7 +84,7 @@
     },
     {
       "chainId": 1666600000,
-      "address": "0xdc54046c0451f9269fee1840aec808d36015697d",
+      "address": "0xdc54046c0451f9269FEe1840aeC808D36015697d",
       "symbol": "1BTC",
       "name": "Harmony Bitcoin",
       "decimals": 8,

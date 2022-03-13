@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow ERC721",
-  "timestamp": "2022-03-01T00:42:21.182Z",
+  "timestamp": "2022-03-13T15:03:39.443Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -111,6 +111,15 @@
     },
     {
       "chainId": 1666600000,
+      "address": "0x728523C45fab916C4a4b3B8ba60e631555f89E9E",
+      "symbol": "LAMBO",
+      "name": "WenLambo",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://i.imgur.com/WWcavgK.png"
+    },
+    {
+      "chainId": 1666600000,
       "address": "0x870c0238e8779Fe9f568Dd1Cc907FA449DBe8552",
       "symbol": "PUFFS",
       "name": "PUFFS",
@@ -138,7 +147,7 @@
     },
     {
       "chainId": 1666600000,
-      "address": "0x41e928EF2F2523518172f4FeDdE59C815398FAaB",
+      "address": "0x563dDe55f3eB0F43586E4a18154fdEE3FD0D1c73",
       "symbol": "SSH",
       "name": "Horse",
       "decimals": 0,

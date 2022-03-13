@@ -33,6 +33,7 @@
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.8",
     "ajv": "^6.12.3",
+    "ethers": "^5.5.4",
     "chai": "^4.2.0",
     "deepmerge": "^4.2.2",
     "mocha": "^8.0.1",

@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow SSG",
-  "timestamp": "2022-03-01T00:42:21.182Z",
+  "timestamp": "2022-03-13T15:03:39.442Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -43,7 +43,7 @@
     },
     {
       "chainId": 1666600000,
-      "address": "0x41e928EF2F2523518172f4FeDdE59C815398FAaB",
+      "address": "0x563dDe55f3eB0F43586E4a18154fdEE3FD0D1c73",
       "symbol": "SSH",
       "name": "Horse",
       "decimals": 0,

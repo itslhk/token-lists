@@ -1,5 +1,5 @@
 {
-  "name": "Tradescrow SSG",
+  "name": "Tradescrow Generic",
   "timestamp": "2022-03-13T15:03:39.444Z",
   "version": {
     "major": 1,
@@ -9,11 +9,7 @@
   "keywords": [
     "tradescrow",
     "approved",
-    "speed",
-    "star",
-    "game",
-    "horse",
-    "racing"
+    "generic"
   ],
   "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
   "tags": {
@@ -25,11 +21,11 @@
   "tokens": [
     {
       "chainId": 1666600000,
-      "address": "0x2daE9aC8E3195715F308B59e7E9326F115Ab4D98",
-      "symbol": "SPEED",
-      "name": "Speed",
+      "address": "0xF9565E8c4E13862f677F144B3cdC8700D9c4BA31",
+      "symbol": "HVILLE",
+      "name": "Harmonyville",
       "decimals": 18,
-      "logoURI": "https://i.imgur.com/nFZgTk7.png"
+      "logoURI": "https://i.imgur.com/WWcavgK.png"
     }
   ]
 }

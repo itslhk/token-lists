@@ -2,6 +2,7 @@ const packageJson = require('../package.json')
 const tokenSchema = require('@uniswap/token-lists/src/tokenlist.schema.json')
 const nftSchema = require('../schemas/nftlist.schema.json')
 const { expect } = require('chai')
+const { ethers } = require('ethers')
 const { getAddress } = require('@ethersproject/address')
 const Ajv = require('ajv')
 const { build } = require('../scripts/build')
@@ -11,6 +12,14 @@ const tokenValidator = ajv.compile(tokenSchema);
 const nftValidator = ajv.compile(nftSchema);
 
 const lists = build()
+
+const miniABI = [
+    "function name() returns (string memory)",
+    "function symbol() returns (string memory)",
+    "function decimals() returns (uint8)"
+]
+
+const jsonRPCProvider = new ethers.providers.JsonRpcProvider("https://rpc.cosmicuniverse.one", {name: "Harmony", chainId: 1666600000})
 
 Object.entries(lists).forEach(([tokenType, list]) => {
     let validator = tokenType === "tokens" ? tokenValidator : nftValidator
@@ -57,6 +66,16 @@ Object.entries(lists).forEach(([tokenType, list]) => {
                 expect(packageJson.version).to.match(/^\d+\.\d+\.\d+$/);
                 expect(packageJson.version).to.equal(`${defaultTokenList.version.major}.${defaultTokenList.version.minor}.${defaultTokenList.version.patch}`);
             });
+            it( 'metadata matches', () => {
+                for (let token of defaultTokenList.tokens) {
+                    const contract = new ethers.Contract(token.address, miniABI, jsonRPCProvider)
+                    contract.name().then(name => expect(name).to.eq(token.name))
+                    contract.symbol().then(symbol => expect(symbol).to.eq(token.symbol))
+                    if (tokenType === "tokens") {
+                        contract.decimals().then(decimals => expect(decimals).to.eq(token.decimals))
+                    }
+                }
+            })
         });
     })
 })

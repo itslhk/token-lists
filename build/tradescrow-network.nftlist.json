@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow network",
-  "timestamp": "2022-03-01T00:42:21.181Z",
+  "timestamp": "2022-03-13T15:03:39.442Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -9,7 +9,7 @@
   "keywords": [
     "tradescrow",
     "approved",
-    "default"
+    "generic"
   ],
   "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
   "tags": {
@@ -24,6 +24,15 @@
       "address": "0xd45F2890AFc159f96702DE015B414C7d1cdA3DbA",
       "symbol": "BQUH",
       "name": "Beast Quest Ultimate Heroes",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://i.imgur.com/WWcavgK.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x728523C45fab916C4a4b3B8ba60e631555f89E9E",
+      "symbol": "LAMBO",
+      "name": "WenLambo",
       "decimals": 0,
       "type": 721,
       "logoURI": "https://i.imgur.com/WWcavgK.png"

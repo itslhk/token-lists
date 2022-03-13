@@ -70,7 +70,7 @@
       "chainId": 1666600000,
       "address": "0x87361363A75c9A6303ce813D0B2656c34B68FF52",
       "symbol": "DFKFHLTHPTN",
-      "name": "Full Health Potion",
+      "name": "Full Health",
       "decimals": 0,
       "logoURI": "https://defi-kingdoms.b-cdn.net/art-assets/items/health-potion-large.png"
     },
@@ -134,7 +134,7 @@
       "chainId": 1666600000,
       "address": "0x2789F04d22a845dC854145d3c289240517f2BcF0",
       "symbol": "DFKHLTHPTN",
-      "name": "Health Vial",
+      "name": "Health",
       "decimals": 0,
       "logoURI": "https://dfk-hv.b-cdn.net/art-assets/items/health-potion.png"
     },

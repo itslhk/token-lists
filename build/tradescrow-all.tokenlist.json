@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow ERC20",
-  "timestamp": "2022-03-01T00:42:21.183Z",
+  "timestamp": "2022-03-13T15:03:39.444Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -450,6 +450,14 @@
       "name": "Fantom",
       "decimals": 18,
       "logoURI": "https://cryptologos.cc/logos/fantom-ftm-logo.png?v=014"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xF9565E8c4E13862f677F144B3cdC8700D9c4BA31",
+      "symbol": "HVILLE",
+      "name": "Harmonyville",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/WWcavgK.png"
     },
     {
       "chainId": 1666600000,
