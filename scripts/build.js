@@ -64,19 +64,20 @@ function build() {
     tokenTypes.forEach((tokenType) => {
         const directoryPath = path.join(__dirname, "..", "src", tokenType);
         readdirSync(directoryPath).forEach((file) => {
-            let [, network,] = file.split('-')
+            let [, network,netType] = file.split('-')
+            netType = netType.replace(".json", "")
             let filePath = path.join(directoryPath, file)
             let raw_data = Buffer.from(readFileSync(filePath)).toString()
             let partialList = JSON.parse(raw_data)
 
             let shortName = partialList["shortName"]
             delete partialList["shortName"]
-
-            lists[tokenType][shortName] = merge(
+            let splitName = `${shortName}${netType==="testnet"?"-testnet":""}`
+            lists[tokenType][splitName] = merge(
               newTradescrowList(network, shortName), partialList
         )
-            sortTokens(lists[tokenType][shortName].tokens)
-            lists[tokenType].all.tokens.push(...lists[tokenType][shortName].tokens)
+            sortTokens(lists[tokenType][splitName].tokens)
+            lists[tokenType].all.tokens.push(...lists[tokenType][splitName].tokens)
         })
         // make consolidated list
         let shortName = lists[tokenType].all.shortName

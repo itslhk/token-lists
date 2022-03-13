@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow SSG",
-  "timestamp": "2022-03-13T15:03:39.442Z",
+  "timestamp": "2022-03-13T16:05:29.718Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -31,15 +31,6 @@
       "decimals": 0,
       "type": 721,
       "logoURI": "https://cdn.speedstargame.com/facilities/images/1.png"
-    },
-    {
-      "chainId": 1666600000,
-      "address": "0xa696B20CE2751A67402fEFD3d2325B8E0cc94EF7",
-      "symbol": "SSH",
-      "name": "SpeedStar Horse",
-      "decimals": 0,
-      "type": 721,
-      "logoURI": "https://cdn.speedstargame.com/horses-profile/5957/avatar.png"
     },
     {
       "chainId": 1666600000,

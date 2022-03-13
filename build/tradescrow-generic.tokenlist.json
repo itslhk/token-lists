@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow Generic",
-  "timestamp": "2022-03-13T15:03:39.444Z",
+  "timestamp": "2022-03-13T16:05:29.720Z",
   "version": {
     "major": 1,
     "minor": 1,
@@ -21,11 +21,35 @@
   "tokens": [
     {
       "chainId": 1666600000,
+      "address": "0x0D625029E21540aBdfAFa3BFC6FD44fB4e0A66d0",
+      "symbol": "CLNY",
+      "name": "ColonyToken",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/22355/large/logo_-_2022-01-07T173357.953.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x66CF8375fd083E7d103D69378e9AF20F1b46DC59",
+      "symbol": "HPLAY",
+      "name": "Harmony Play",
+      "decimals": 18,
+      "logoURI": "https://d1xrz6ki9z98vb.cloudfront.net/venomswap/tokens/HPLAY.png"
+    },
+    {
+      "chainId": 1666600000,
       "address": "0xF9565E8c4E13862f677F144B3cdC8700D9c4BA31",
       "symbol": "HVILLE",
       "name": "Harmonyville",
       "decimals": 18,
       "logoURI": "https://i.imgur.com/WWcavgK.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xAd14716899F6Bd9EC8aD00e8275252A22dbe824A",
+      "symbol": "SHARD",
+      "name": "SHARD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24017/large/hello_gophers_logo.png?1646034201"
     }
   ]
 }
