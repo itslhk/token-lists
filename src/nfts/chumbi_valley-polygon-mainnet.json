@@ -1,0 +1,24 @@
+{
+	"shortName": "CV",
+	"keywords": ["chumbi", "valley"],
+	"tokens": [
+		{
+			"chainId": 137,
+			"address": "0x5492Ef6aEebA1A3896357359eF039a8B11621b45",
+			"symbol": "CHUMBI",
+			"name": "Chumbi",
+			"decimals": 0,
+			"type": 721,
+			"logoURI": "https://lh3.googleusercontent.com/o-nd756a7FjXmTMKEEHBgpRUs7BqwpVov6JqRbElWpnficGtp7UvF3ouN71wlugZpHR4A-ulfoN9Tn2ua4rOBBZa3WQ8mghLaF5asw=w600"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0x68Df8633f15699F9D44048e97067Aa37a71e245A",
+			"symbol": "CVFC",
+			"name": "Chumbi Valley Founders Collection",
+			"decimals": 0,
+			"type": 1155,
+			"logoURI": "https://lh3.googleusercontent.com/MGWOs7NvSXZIOTt0eiRN8qJCe4NyLejL6QzwpIgxjuRBSG9-EZNseDm_u9cqrgDebuipG33chOVWv2LtBa8Adx7b1-e5Ms8EEE8AyQ=w600"
+		}
+	]
+}
