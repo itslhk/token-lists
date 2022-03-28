@@ -6,7 +6,7 @@ const util = require('util')
 const lists = build()
 
 const diff = (filePath, newTokenList) => {
-	let ntl = newTokenList
+	let ntl = Object.assign({}, newTokenList)
 	let raw_data = Buffer.from(readFileSync(filePath)).toString()
 	let otl = JSON.parse(raw_data)
 	delete otl.version

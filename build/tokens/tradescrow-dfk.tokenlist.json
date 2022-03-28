@@ -1,5 +1,11 @@
 {
   "name": "Tradescrow DFK",
+  "timestamp": "2022-03-28T23:56:48.663Z",
+  "version": {
+    "major": 1,
+    "minor": 2,
+    "patch": 0
+  },
   "keywords": [
     "tradescrow",
     "approved",
@@ -36,7 +42,7 @@
     },
     {
       "chainId": 53935,
-      "address": "0x1b4c7b319d844a748A9602B445aAD70C31069BF8",
+      "address": "0x77f2656d04E158f915bC22f07B779D94c1DC47Ff",
       "symbol": "xJEWEL",
       "name": "xJEWEL",
       "decimals": 18,
@@ -44,9 +50,9 @@
     },
     {
       "chainId": 53935,
-      "address": "0x77f2656d04E158f915bC22f07B779D94c1DC47Ff",
-      "symbol": "xJEWEL2",
-      "name": "xJEWEL2",
+      "address": "0x1b4c7b319d844a748A9602B445aAD70C31069BF8",
+      "symbol": "xJEWEL-?",
+      "name": "xJEWEL-?",
       "decimals": 18,
       "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
     },

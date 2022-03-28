@@ -621,16 +621,16 @@
     {
       "chainId": 53935,
       "address": "0x1b4c7b319d844a748A9602B445aAD70C31069BF8",
-      "symbol": "xJEWEL",
-      "name": "xJEWEL",
+      "symbol": "xJEWEL-?",
+      "name": "xJEWEL-?",
       "decimals": 18,
       "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
     },
     {
       "chainId": 53935,
       "address": "0x77f2656d04E158f915bC22f07B779D94c1DC47Ff",
-      "symbol": "xJEWEL2",
-      "name": "xJEWEL2",
+      "symbol": "xJEWEL",
+      "name": "xJEWEL",
       "decimals": 18,
       "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
     },
