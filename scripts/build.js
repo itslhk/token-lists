@@ -23,9 +23,8 @@ function sortTokens(tokens) {
       })
 }
 
-function newTradescrowList(network, shortName) {
+function newTradescrowList(shortName) {
     let tags = {}
-    tags[network] = NetworkTags[network]
 
     return {
         name: `Tradescrow ${shortName}`,
@@ -64,20 +63,17 @@ function build() {
     tokenTypes.forEach((tokenType) => {
         const directoryPath = path.join(__dirname, "..", "src", tokenType);
         readdirSync(directoryPath).forEach((file) => {
-            let [, network,netType] = file.split('-')
-            netType = netType.replace(".json", "")
             let filePath = path.join(directoryPath, file)
             let raw_data = Buffer.from(readFileSync(filePath)).toString()
             let partialList = JSON.parse(raw_data)
 
-            let shortName = partialList["shortName"]
-            delete partialList["shortName"]
-            let splitName = `${shortName}${netType==="testnet"?"-testnet":""}`
-            lists[tokenType][splitName] = merge(
-              newTradescrowList(network, shortName), partialList
+            let shortName = partialList.shortName
+            delete partialList.shortName
+            lists[tokenType][shortName] = merge(
+              newTradescrowList(shortName), partialList
         )
-            sortTokens(lists[tokenType][splitName].tokens)
-            lists[tokenType].all.tokens.push(...lists[tokenType][splitName].tokens)
+            sortTokens(lists[tokenType][shortName].tokens)
+            lists[tokenType].all.tokens.push(...lists[tokenType][shortName].tokens)
         })
         // make consolidated list
         let shortName = lists[tokenType].all.shortName
@@ -85,7 +81,7 @@ function build() {
         let allTemp = lists[tokenType].all
 
         lists[tokenType].all = merge(
-          newTradescrowList("harmony", shortName), allTemp
+          newTradescrowList(shortName), allTemp
         )
         sortTokens(lists[tokenType].all.tokens)
     })

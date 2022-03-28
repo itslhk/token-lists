@@ -1,9 +1,9 @@
 {
   "name": "Tradescrow CV",
-  "timestamp": "2022-03-19T11:06:04.273Z",
+  "timestamp": "2022-03-28T19:59:35.527Z",
   "version": {
     "major": 1,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   },
   "keywords": [
@@ -25,7 +25,7 @@
       "logoURI": "https://lh3.googleusercontent.com/o-nd756a7FjXmTMKEEHBgpRUs7BqwpVov6JqRbElWpnficGtp7UvF3ouN71wlugZpHR4A-ulfoN9Tn2ua4rOBBZa3WQ8mghLaF5asw=w600"
     },
     {
-      "chainId": 1666600000,
+      "chainId": 137,
       "address": "0x68Df8633f15699F9D44048e97067Aa37a71e245A",
       "symbol": "CVFC",
       "name": "Chumbi Valley Founders Collection",

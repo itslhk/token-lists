@@ -1,9 +1,9 @@
 {
   "name": "Tradescrow ERC721",
-  "timestamp": "2022-03-19T11:06:04.275Z",
+  "timestamp": "2022-03-28T19:59:35.529Z",
   "version": {
     "major": 1,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   },
   "keywords": [
@@ -12,12 +12,7 @@
     "consolidated"
   ],
   "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
-  "tags": {
-    "harmony": {
-      "name": "Harmony",
-      "description": "Tokens on the Harmony network"
-    }
-  },
+  "tags": {},
   "tokens": [
     {
       "chainId": 137,
@@ -27,6 +22,15 @@
       "decimals": 0,
       "type": 721,
       "logoURI": "https://lh3.googleusercontent.com/o-nd756a7FjXmTMKEEHBgpRUs7BqwpVov6JqRbElWpnficGtp7UvF3ouN71wlugZpHR4A-ulfoN9Tn2ua4rOBBZa3WQ8mghLaF5asw=w600"
+    },
+    {
+      "chainId": 137,
+      "address": "0x68Df8633f15699F9D44048e97067Aa37a71e245A",
+      "symbol": "CVFC",
+      "name": "Chumbi Valley Founders Collection",
+      "decimals": 0,
+      "type": 1155,
+      "logoURI": "https://lh3.googleusercontent.com/MGWOs7NvSXZIOTt0eiRN8qJCe4NyLejL6QzwpIgxjuRBSG9-EZNseDm_u9cqrgDebuipG33chOVWv2LtBa8Adx7b1-e5Ms8EEE8AyQ=w600"
     },
     {
       "chainId": 1666600000,
@@ -45,15 +49,6 @@
       "decimals": 0,
       "type": 721,
       "logoURI": "https://i.imgur.com/iwpaW1W.jpg"
-    },
-    {
-      "chainId": 1666600000,
-      "address": "0x68Df8633f15699F9D44048e97067Aa37a71e245A",
-      "symbol": "CVFC",
-      "name": "Chumbi Valley Founders Collection",
-      "decimals": 0,
-      "type": 1155,
-      "logoURI": "https://lh3.googleusercontent.com/MGWOs7NvSXZIOTt0eiRN8qJCe4NyLejL6QzwpIgxjuRBSG9-EZNseDm_u9cqrgDebuipG33chOVWv2LtBa8Adx7b1-e5Ms8EEE8AyQ=w600"
     },
     {
       "chainId": 1666600000,

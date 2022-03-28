@@ -1,9 +1,9 @@
 {
   "name": "Tradescrow CU",
-  "timestamp": "2022-03-19T11:06:04.274Z",
+  "timestamp": "2022-03-28T19:59:35.528Z",
   "version": {
     "major": 1,
-    "minor": 1,
+    "minor": 2,
     "patch": 0
   },
   "keywords": [
@@ -14,12 +14,7 @@
     "universe"
   ],
   "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
-  "tags": {
-    "harmony": {
-      "name": "Harmony",
-      "description": "Tokens on the Harmony network"
-    }
-  },
+  "tags": {},
   "tokens": [
     {
       "chainId": 1666600000,

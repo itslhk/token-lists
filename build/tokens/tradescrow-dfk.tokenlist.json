@@ -1,11 +1,5 @@
 {
   "name": "Tradescrow DFK",
-  "timestamp": "2022-03-19T11:06:04.276Z",
-  "version": {
-    "major": 1,
-    "minor": 1,
-    "patch": 0
-  },
   "keywords": [
     "tradescrow",
     "approved",
@@ -14,13 +8,48 @@
     "kingdoms"
   ],
   "logoURI": "https://tradescrow.s3.us-east-2.amazonaws.com/black/logo.png",
-  "tags": {
-    "harmony": {
-      "name": "Harmony",
-      "description": "Tokens on the Harmony network"
-    }
-  },
+  "tags": {},
   "tokens": [
+    {
+      "chainId": 53935,
+      "address": "0xB4E1014A474D51782a6d9f60d068E10B812ca66D",
+      "symbol": "CRYSTAL",
+      "name": "Crystals",
+      "decimals": 18,
+      "logoURI": "https://1385916477-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MfUam-1n-JpNfAIQQey%2Fuploads%2F3uomSf1rUeAQ0cDI2i0F%2Fcrystal_token_x2.png?alt=media&token=69049360-4fc9-4f3f-a756-eb1982b0b3bd"
+    },
+    {
+      "chainId": 53935,
+      "address": "0xCCb93dABD71c8Dad03Fc4CE5559dC3D89F67a260",
+      "symbol": "Wrapped JEWEL",
+      "name": "WJEWEL",
+      "decimals": 18,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
+    },
+    {
+      "chainId": 53935,
+      "address": "0xA11f52cd55900e7faf0daca7F2BA1DF8df30AdDd",
+      "symbol": "xCRYSTAL",
+      "name": "xCrystals",
+      "decimals": 18,
+      "logoURI": "https://1385916477-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MfUam-1n-JpNfAIQQey%2Fuploads%2F3uomSf1rUeAQ0cDI2i0F%2Fcrystal_token_x2.png?alt=media&token=69049360-4fc9-4f3f-a756-eb1982b0b3bd"
+    },
+    {
+      "chainId": 53935,
+      "address": "0x1b4c7b319d844a748A9602B445aAD70C31069BF8",
+      "symbol": "xJEWEL",
+      "name": "xJEWEL",
+      "decimals": 18,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
+    },
+    {
+      "chainId": 53935,
+      "address": "0x77f2656d04E158f915bC22f07B779D94c1DC47Ff",
+      "symbol": "xJEWEL2",
+      "name": "xJEWEL2",
+      "decimals": 18,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
+    },
     {
       "chainId": 1666600000,
       "address": "0x6e1bC01Cc52D165B357c42042cF608159A2B81c1",
@@ -624,6 +653,22 @@
     {
       "chainId": 1666600000,
       "address": "0x72Cb10C6bfA5624dD07Ef608027E366bd690048F",
+      "symbol": "JEWEL",
+      "name": "Jewel",
+      "decimals": 18,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0xA9cE83507D872C5e1273E745aBcfDa849DAA654F",
+      "symbol": "xJEWEL",
+      "name": "xJewels",
+      "decimals": 18,
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media"
+    },
+    {
+      "chainId": 1666700000,
+      "address": "0x63882d0438AdA0dD76ed2E6B7C2D53A55284A557",
       "symbol": "JEWEL",
       "name": "Jewel",
       "decimals": 18,
