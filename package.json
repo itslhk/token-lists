@@ -1,6 +1,6 @@
 {
   "name": "@tradescrow/token-lists",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Tradescrow token lists",
   "main": "index.js",
   "scripts": {
