@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow ERC20",
-  "timestamp": "2022-03-30T17:36:40.748Z",
+  "timestamp": "2022-03-30T18:49:55.235Z",
   "version": {
     "major": 1,
     "minor": 2,
@@ -31,7 +31,7 @@
       "symbol": "CRYSTAL",
       "name": "Crystals",
       "decimals": 18,
-      "logoURI": "https://1385916477-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MfUam-1n-JpNfAIQQey%2Fuploads%2F3uomSf1rUeAQ0cDI2i0F%2Fcrystal_token_x2.png?alt=media&token=69049360-4fc9-4f3f-a756-eb1982b0b3bd",
+      "logoURI": "https://beta.defikingdoms.com/static/media/crystal-logo.b0ad245d.png",
       "tags": [
         "dfk chain"
       ]
@@ -42,7 +42,7 @@
       "symbol": "CRYSTAL-AVAX",
       "name": "CRYSTAL-AVAX LP",
       "decimals": 18,
-      "logoURI": "https://1385916477-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MfUam-1n-JpNfAIQQey%2Fuploads%2F3uomSf1rUeAQ0cDI2i0F%2Fcrystal_token_x2.png?alt=media&token=69049360-4fc9-4f3f-a756-eb1982b0b3bd",
+      "logoURI": "https://beta.defikingdoms.com/static/media/crystal-logo.b0ad245d.png",
       "tags": [
         "dfk chain",
         "lp"
@@ -54,7 +54,7 @@
       "symbol": "JEWEL-AVAX",
       "name": "JEWEL-AVAX LP",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "dfk chain",
         "lp"
@@ -66,7 +66,7 @@
       "symbol": "JEWEL-CRYSTAL",
       "name": "JEWEL-CRYSTAL LP",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "dfk chain",
         "lp"
@@ -78,7 +78,7 @@
       "symbol": "JEWEL-xJEWEL",
       "name": "JEWEL-xJEWEL LP",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "dfk chain",
         "lp"
@@ -90,7 +90,7 @@
       "symbol": "Wrapped JEWEL",
       "name": "WJEWEL",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "dfk chain"
       ]
@@ -101,7 +101,7 @@
       "symbol": "xCRYSTAL",
       "name": "xCrystals",
       "decimals": 18,
-      "logoURI": "https://1385916477-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MfUam-1n-JpNfAIQQey%2Fuploads%2F3uomSf1rUeAQ0cDI2i0F%2Fcrystal_token_x2.png?alt=media&token=69049360-4fc9-4f3f-a756-eb1982b0b3bd",
+      "logoURI": "https://beta.defikingdoms.com/static/media/crystal-logo.b0ad245d.png",
       "tags": [
         "dfk chain"
       ]
@@ -112,7 +112,7 @@
       "symbol": "xJEWEL",
       "name": "xJEWEL",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "dfk chain"
       ]
@@ -1092,7 +1092,7 @@
       "symbol": "JEWEL",
       "name": "Jewel",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "harmony"
       ]
@@ -1231,7 +1231,7 @@
       "symbol": "xJEWEL",
       "name": "xJewels",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "harmony"
       ]
@@ -1298,7 +1298,7 @@
       "symbol": "JEWEL",
       "name": "Jewel",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
+      "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
         "harmony testnet"
       ]
