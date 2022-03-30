@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow ERC20",
-  "timestamp": "2022-03-30T18:49:55.235Z",
+  "timestamp": "2022-03-30T20:57:11.466Z",
   "version": {
     "major": 1,
     "minor": 2,
@@ -87,8 +87,8 @@
     {
       "chainId": 53935,
       "address": "0xCCb93dABD71c8Dad03Fc4CE5559dC3D89F67a260",
-      "symbol": "Wrapped JEWEL",
-      "name": "WJEWEL",
+      "symbol": "WJEWEL",
+      "name": "Wrapped JEWEL",
       "decimals": 18,
       "logoURI": "https://beta.defikingdoms.com/static/media/jewel-logo.88468185.png",
       "tags": [
