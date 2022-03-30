@@ -1,6 +1,6 @@
 {
   "name": "Tradescrow DFK",
-  "timestamp": "2022-03-30T17:34:25.684Z",
+  "timestamp": "2022-03-30T17:36:40.747Z",
   "version": {
     "major": 1,
     "minor": 2,
@@ -56,7 +56,7 @@
       "symbol": "JEWEL-AVAX",
       "name": "JEWEL-AVAX LP",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png",
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
       "tags": [
         "dfk chain",
         "lp"
@@ -68,7 +68,7 @@
       "symbol": "JEWEL-CRYSTAL",
       "name": "JEWEL-CRYSTAL LP",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png",
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
       "tags": [
         "dfk chain",
         "lp"
@@ -80,7 +80,7 @@
       "symbol": "JEWEL-xJEWEL",
       "name": "JEWEL-xJEWEL LP",
       "decimals": 18,
-      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png",
+      "logoURI": "https://firebasestorage.googleapis.com/v0/b/defi-kingdoms.appspot.com/o/tokens%2FJEWEL.png?alt=media",
       "tags": [
         "dfk chain",
         "lp"
