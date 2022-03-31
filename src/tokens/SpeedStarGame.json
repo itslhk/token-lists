@@ -8,7 +8,15 @@
 			"symbol": "SPEED",
 			"name": "Speed",
 			"decimals": 18,
-			"logoURI": "https://i.imgur.com/nFZgTk7.png"
+			"logoURI": "https://cdn.speedstargame.com/images/speed-token.png"
+		},
+		{
+			"chainId": 1666600000,
+			"address": "0xB914e7A183AbCD46300584DA828f62A39516F33b",
+			"symbol": "STAR",
+			"name": "Star",
+			"decimals": 18,
+			"logoURI": "https://cdn.speedstargame.com/images/star-token.png"
 		}
 	]
 }

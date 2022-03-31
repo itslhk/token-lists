@@ -1,10 +1,10 @@
 {
   "name": "Tradescrow ERC721",
-  "timestamp": "2022-03-28T19:59:35.529Z",
+  "timestamp": "2022-03-31T14:51:05.986Z",
   "version": {
     "major": 1,
     "minor": 2,
-    "patch": 0
+    "patch": 1
   },
   "keywords": [
     "tradescrow",
@@ -169,9 +169,27 @@
     },
     {
       "chainId": 1666600000,
+      "address": "0xa696B20CE2751A67402fEFD3d2325B8E0cc94EF7",
+      "symbol": "SSHv1",
+      "name": "Horse V1",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://cdn.speedstargame.com/horses-profile/1434/avatar.png"
+    },
+    {
+      "chainId": 1666600000,
       "address": "0x563dDe55f3eB0F43586E4a18154fdEE3FD0D1c73",
-      "symbol": "SSH",
-      "name": "Horse",
+      "symbol": "SSHv2",
+      "name": "Horse V2",
+      "decimals": 0,
+      "type": 721,
+      "logoURI": "https://cdn.speedstargame.com/horses-profile/1434/avatar.png"
+    },
+    {
+      "chainId": 1666600000,
+      "address": "0x7e68D3b516Eef829563768581b93BD3cB763f0A7",
+      "symbol": "SSHv3",
+      "name": "Horse V3",
       "decimals": 0,
       "type": 721,
       "logoURI": "https://cdn.speedstargame.com/horses-profile/1434/avatar.png"
